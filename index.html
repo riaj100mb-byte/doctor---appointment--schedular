@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Doctor Appointment Scheduler</h1>
+    <form id="appointmentForm">
+        <input type="text" id="name" placeholder="Patient Name" required>
+        <select id="doctor">
+            <option>Dr. Sharma (Cardiologist)</option>
+            <option>Dr. Ahmed (General Physician)</option>
+            <option>Dr. Das (Orthopedic)</option>
+        </select>
+        <input type="date" id="date" required>
+        <button type="submit">Book Appointment</button>
+    </form>
+    <div id="result"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
